@@ -1,0 +1,33 @@
+{
+  "name": "question-answer-rest-api",
+  "version": "1.0.0",
+  "description": "Question Answer Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/receptopalak/Question-Answer-Rest-Api.git"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Recep Topalak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/receptopalak/Question-Answer-Rest-Api/issues"
+  },
+  "homepage": "https://github.com/receptopalak/Question-Answer-Rest-Api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
